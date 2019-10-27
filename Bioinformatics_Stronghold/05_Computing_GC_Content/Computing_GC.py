@@ -1,9 +1,7 @@
 #!/usr/bin/python
 
 """
-Script which count the %GC. 
-
-This script will read fasta sequences and compute the GC percentage
+This script will read fasta sequences and compute the GC percentage.
 """
 
 __authors__ = ("Benoit Aliaga")
@@ -11,12 +9,37 @@ __contact__ = ("benoit.aliaga@umontpellier.fr")
 __version__ = "0.0.1"
 __date__ = "10/27/2019"
 
-def Fasta():
-    pass
+import sys, os
+
+def ReadFastaFile(dataFileName):
+    """
+        This function reads a fasta file.
+    """
+
+    # Open fasta file
+    f = open(dataFileName, 'r')
+
+    # Read fasta file
+    for line in f:
+        if line.startswith('>'):
+            print(line)
+        else:
+            print(line)
+
+    f.close()
 
 def ComputeGC():
+    """
+        This function computes a GC % in each sequences in a fasta file.
+    """
     pass
 
-if __name__ == "__main__":
-    # The main programm start here
-    pass 
+if __name__ == "__main__": # The main programm start here
+    
+    # Give argument for command line
+    pyScriptName = sys.argv[0] # Argument for the script name
+    dataFileName = sys.argv[1] # Argument for input file
+
+    ReadFastaFile(dataFileName)
+
+    # Compute GC percentages
