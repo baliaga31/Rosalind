@@ -27,3 +27,5 @@ To do:
 
 To do:
 - GC  Computing GC Content
+- PROT	Translating RNA into Protein
+- SUBS	Finding a Motif in DNA
