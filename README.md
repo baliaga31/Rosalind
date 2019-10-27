@@ -1,6 +1,6 @@
 # Rosalind
 
-Rosalind (http://rosalind.info/) is a very good website to learn python and bioinformatics. These exercices are divided into four groups: 
+Rosalind (http://rosalind.info/) is a very good website to learn python and bioinformatics. These exercices are divided in four groups: 
 
 1. Python Village
 2. Bioinformatics Stronghold
