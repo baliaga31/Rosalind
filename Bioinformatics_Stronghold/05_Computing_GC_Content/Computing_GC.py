@@ -38,11 +38,11 @@ def ReadFastaFile(dataFileName):
 
     return(sequences)
 
-def ComputeGC(sequences):
+def ComputeGC():
     """
         This function computes a GC % in each sequences in a fasta file.
     """
-    pass
+    print('Ca marche!')
 
 if __name__ == "__main__": # The main programm start here
     
@@ -54,3 +54,4 @@ if __name__ == "__main__": # The main programm start here
     ReadFastaFile(dataFileName)
 
     # Compute GC percentages
+    ComputeGC()
