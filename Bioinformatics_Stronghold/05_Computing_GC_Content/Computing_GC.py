@@ -19,16 +19,26 @@ def ReadFastaFile(dataFileName):
     # Open fasta file
     f = open(dataFileName, 'r')
 
+    sequences = []
+    seq = ''
+
     # Read fasta file
     for line in f:
         if line.startswith('>'):
-            print(line)
+            if seq:
+                sequences.append(seq)
+            seq = ''
         else:
-            print(line)
+            seq += line.rstrip()
+
+    if seq:
+        sequences.append(seq)
 
     f.close()
 
-def ComputeGC():
+    return(sequences)
+
+def ComputeGC(sequences):
     """
         This function computes a GC % in each sequences in a fasta file.
     """
@@ -40,6 +50,7 @@ if __name__ == "__main__": # The main programm start here
     pyScriptName = sys.argv[0] # Argument for the script name
     dataFileName = sys.argv[1] # Argument for input file
 
+    # Read the fasta file
     ReadFastaFile(dataFileName)
 
     # Compute GC percentages
