@@ -42,7 +42,7 @@ def ComputeGC():
     """
         This function computes a GC % in each sequences in a fasta file.
     """
-    print('Ca marche!')
+    pass
 
 if __name__ == "__main__": # The main programm start here
     
