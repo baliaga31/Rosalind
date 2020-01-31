@@ -24,8 +24,10 @@ To do:
 - RNA: Transcribing DNA into RNA (script: Transcribing_DNA_into_RNA.py)
 - REVC: Complementing a Strand of DNA (03_REVC.py & 03_REVC_v02.py)
 - HAMM: Counting Point Mutations (script: Counting_Hamming_Distance.py)
-- GC: Computing GC Content
+- GC: Computing GC Content (scrit: Computing_GC_02.py)
+- PROT:  Translating RNA into Protein (script: Translating_RNA_into_Protein.py)
 
 To do:
-- PROT	Translating RNA into Protein
-- SUBS	Finding a Motif in DNA
+- IPRB: Mendel's First Law
+- SUBS:	Finding a Motif in DNA
+- FIB: Rabbits and Recurrence Relations
