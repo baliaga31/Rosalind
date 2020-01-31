@@ -24,8 +24,8 @@ To do:
 - RNA: Transcribing DNA into RNA (script: Transcribing_DNA_into_RNA.py)
 - REVC: Complementing a Strand of DNA (03_REVC.py & 03_REVC_v02.py)
 - HAMM: Counting Point Mutations (script: Counting_Hamming_Distance.py)
+- GC: Computing GC Content
 
 To do:
-- GC  Computing GC Content
 - PROT	Translating RNA into Protein
 - SUBS	Finding a Motif in DNA
